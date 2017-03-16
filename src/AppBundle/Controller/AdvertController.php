@@ -116,7 +116,7 @@ class AdvertController extends Controller
         date_default_timezone_set("Europe/Paris");
         $dbh->exec("SET CHARACTER SET utf8");
 
-        $rep = $dbh->prepare("SELECT * FROM book b, member m WHERE b.id = m.idBook AND m.id = ?;");
+        $rep = $dbh->prepare("SELECT b.* FROM book b, member m WHERE b.id = m.idBook AND m.id = ?;");
         $rep-> execute(array($id));
         //$book = $rep->fetch(PDO::FETCH_ASSOC);
 
