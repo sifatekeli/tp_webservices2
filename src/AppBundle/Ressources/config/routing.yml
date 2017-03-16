@@ -1,0 +1,39 @@
+oc_platform_books:
+    path: /books/
+    methods: GET
+    defaults:
+        _controller: AppBundle:Advert:livres
+
+oc_platform_books_details:
+    path: /books/{id}
+    methods: GET
+    defaults:
+        _controller: AppBundle:Advert:livre
+        id: 1
+    requirements:
+        id: \d*
+
+
+oc_platform_books_post:
+    path: /books/
+    methods: POST
+    defaults:
+        _controller: AppBundle:Advert:post
+
+
+oc_platform_books_delete:
+    path: /books/{id}
+    methods: DELETE
+    defaults:
+        _controller: AppBundle:Advert:delete
+    requirements:
+        id: \d*
+
+oc_platform_books_put:
+    path: /books/
+    methods: PUT
+    defaults:
+        _controller: AppBundle:Advert:put
+
+
+
