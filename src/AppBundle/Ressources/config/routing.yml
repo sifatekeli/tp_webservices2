@@ -35,5 +35,11 @@ oc_platform_books_put:
     defaults:
         _controller: AppBundle:Advert:put
 
+oc_platform_member_books:
+    path: /members/{id}/books/
+    methods: GET
+    defaults:
+        _controller: AppBundle:Advert:memberBooks
+
 
 

@@ -91,9 +91,6 @@ class AdvertController extends Controller
 
     public function PutAction(Request $request) {
 
-
-        echo "aaaaa";
-
         $parametersAsArray = [];
         if ($content = $request->getContent()) {
             $parametersAsArray = json_decode($content, true);
@@ -112,6 +109,23 @@ class AdvertController extends Controller
         return new JsonResponse($id);
 
         //return $this->render('default/post.html.twig');
+    }
+
+    public function memberBooksAction($id){
+        $dbh = new PDO('mysql:host=localhost;dbname=mediatheque', "root", "", array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+        date_default_timezone_set("Europe/Paris");
+        $dbh->exec("SET CHARACTER SET utf8");
+
+        $rep = $dbh->prepare("SELECT * FROM book b, member m WHERE b.id = m.idBook AND m.id = ?;");
+        $rep-> execute(array($id));
+        //$book = $rep->fetch(PDO::FETCH_ASSOC);
+
+        $books = array();
+        while ($data = $rep->fetch(PDO::FETCH_ASSOC)){
+            array_push($books, new Book($data['id'], $data['name'], $data['category'])) ;
+        }
+
+        return new JsonResponse($books);
     }
 
 

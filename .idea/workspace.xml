@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c295a7a-d960-414d-8b9c-5f50245a4045" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/default/livre.html.twig" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/views/default/post.html.twig" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Resources/views/default/index.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/default/livres.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/routing.yml" afterPath="$PROJECT_DIR$/app/config/routing.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Controller/AdvertController.php" afterPath="$PROJECT_DIR$/src/AppBundle/Controller/AdvertController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppBundle/Ressources/config/routing.yml" afterPath="$PROJECT_DIR$/src/AppBundle/Ressources/config/routing.yml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -46,20 +43,21 @@
       <file leaf-file-name="AdvertController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/AdvertController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="99" column="9" lean-forward="false" selection-start-line="99" selection-start-column="9" selection-end-line="99" selection-end-column="9" />
+            <state relative-caret-position="424">
+              <caret line="118" column="41" lean-forward="false" selection-start-line="118" selection-start-column="41" selection-end-line="118" selection-end-column="41" />
               <folding>
                 <element signature="e#40#99#0#PHP" expanded="true" />
-                <marker date="1489420048910" expanded="true" signature="808:826" ph="SELECT * FRO... book" />
-                <marker date="1489420048910" expanded="true" signature="1422:1453" ph="SELECT * FRO... book" />
-                <marker date="1489420048910" expanded="true" signature="2253:2316" ph="INSERT INTO book... " />
-                <marker date="1489420048910" expanded="true" signature="2716:2742" ph="DELETE FROM " />
-                <marker date="1489420048910" expanded="true" signature="2716:2748" ph="DELETE FROM " />
-                <marker date="1489420048910" expanded="true" signature="3471:3504" ph="UPDATE book " />
-                <marker date="1489420048910" expanded="true" signature="3471:3517" ph="UPDATE book " />
-                <marker date="1489420048910" expanded="true" signature="3471:3520" ph="UPDATE book " />
-                <marker date="1489420048910" expanded="true" signature="3471:3544" ph="UPDATE book " />
-                <marker date="1489420048910" expanded="true" signature="3533:3544" ph="DELETE FROM " />
+                <marker date="1489654084348" expanded="true" signature="808:826" ph="SELECT * FRO... book" />
+                <marker date="1489654084348" expanded="true" signature="1422:1453" ph="SELECT * FRO... book" />
+                <marker date="1489654084348" expanded="true" signature="2253:2316" ph="INSERT INTO book... " />
+                <marker date="1489654084348" expanded="true" signature="2716:2742" ph="DELETE FROM " />
+                <marker date="1489654084348" expanded="true" signature="2716:2748" ph="DELETE FROM " />
+                <marker date="1489654084348" expanded="true" signature="3447:3480" ph="UPDATE book " />
+                <marker date="1489654084348" expanded="true" signature="3447:3493" ph="UPDATE book " />
+                <marker date="1489654084348" expanded="true" signature="3447:3496" ph="UPDATE book " />
+                <marker date="1489654084348" expanded="true" signature="3447:3520" ph="UPDATE book " />
+                <marker date="1489654084348" expanded="true" signature="3509:3520" ph="DELETE FROM " />
+                <marker date="1489654084348" expanded="true" signature="3936:4001" ph="SELECT * FRO... book" />
               </folding>
             </state>
           </provider>
@@ -75,21 +73,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Book.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Book.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="routing.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppBundle/Ressources/config/routing.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="622">
+              <caret line="41" column="49" lean-forward="false" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -143,6 +131,7 @@
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/BookController.php" />
         <option value="$PROJECT_DIR$/app/Resources/views/default/post.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Ressources/views/layout.html.twig" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Entity/Member.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Ressources/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/AdvertController.php" />
       </list>
@@ -487,12 +476,12 @@
       <option name="presentableId" value="Default" />
       <updated>1489401783782</updated>
       <workItem from="1489401788801" duration="13705000" />
-      <workItem from="1489651635211" duration="829000" />
+      <workItem from="1489651635211" duration="2503000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14534000" />
+    <option name="totallyTimeSpent" value="16208000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -551,16 +540,17 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#40#99#0#PHP" expanded="true" />
-            <marker date="1489420048910" expanded="true" signature="808:826" ph="SELECT * FRO... book" />
-            <marker date="1489420048910" expanded="true" signature="1422:1453" ph="SELECT * FRO... book" />
-            <marker date="1489420048910" expanded="true" signature="2253:2316" ph="INSERT INTO book... " />
-            <marker date="1489420048910" expanded="true" signature="2716:2742" ph="DELETE FROM " />
-            <marker date="1489420048910" expanded="true" signature="2716:2748" ph="DELETE FROM " />
-            <marker date="1489420048910" expanded="true" signature="3471:3504" ph="UPDATE book " />
-            <marker date="1489420048910" expanded="true" signature="3471:3517" ph="UPDATE book " />
-            <marker date="1489420048910" expanded="true" signature="3471:3520" ph="UPDATE book " />
-            <marker date="1489420048910" expanded="true" signature="3471:3544" ph="UPDATE book " />
-            <marker date="1489420048910" expanded="true" signature="3533:3544" ph="DELETE FROM " />
+            <marker date="1489654084348" expanded="true" signature="808:826" ph="SELECT * FRO... book" />
+            <marker date="1489654084348" expanded="true" signature="1422:1453" ph="SELECT * FRO... book" />
+            <marker date="1489654084348" expanded="true" signature="2253:2316" ph="INSERT INTO book... " />
+            <marker date="1489654084348" expanded="true" signature="2716:2742" ph="DELETE FROM " />
+            <marker date="1489654084348" expanded="true" signature="2716:2748" ph="DELETE FROM " />
+            <marker date="1489654084348" expanded="true" signature="3447:3480" ph="UPDATE book " />
+            <marker date="1489654084348" expanded="true" signature="3447:3493" ph="UPDATE book " />
+            <marker date="1489654084348" expanded="true" signature="3447:3496" ph="UPDATE book " />
+            <marker date="1489654084348" expanded="true" signature="3447:3520" ph="UPDATE book " />
+            <marker date="1489654084348" expanded="true" signature="3509:3520" ph="DELETE FROM " />
+            <marker date="1489654084348" expanded="true" signature="3936:4001" ph="SELECT * FRO... book" />
           </folding>
         </state>
       </provider>
@@ -638,6 +628,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -676,22 +667,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Ressources/views/layout.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Book.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
@@ -700,30 +675,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Book.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Ressources/views/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Ressources/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="622">
+          <caret line="41" column="49" lean-forward="false" selection-start-line="41" selection-start-column="38" selection-end-line="41" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Member.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/AdvertController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="99" column="9" lean-forward="false" selection-start-line="99" selection-start-column="9" selection-end-line="99" selection-end-column="9" />
+        <state relative-caret-position="424">
+          <caret line="118" column="41" lean-forward="false" selection-start-line="118" selection-start-column="41" selection-end-line="118" selection-end-column="41" />
           <folding>
             <element signature="e#40#99#0#PHP" expanded="true" />
-            <marker date="1489420048910" expanded="true" signature="808:826" ph="SELECT * FRO... book" />
-            <marker date="1489420048910" expanded="true" signature="1422:1453" ph="SELECT * FRO... book" />
-            <marker date="1489420048910" expanded="true" signature="2253:2316" ph="INSERT INTO book... " />
-            <marker date="1489420048910" expanded="true" signature="2716:2742" ph="DELETE FROM " />
-            <marker date="1489420048910" expanded="true" signature="2716:2748" ph="DELETE FROM " />
-            <marker date="1489420048910" expanded="true" signature="3471:3504" ph="UPDATE book " />
-            <marker date="1489420048910" expanded="true" signature="3471:3517" ph="UPDATE book " />
-            <marker date="1489420048910" expanded="true" signature="3471:3520" ph="UPDATE book " />
-            <marker date="1489420048910" expanded="true" signature="3471:3544" ph="UPDATE book " />
-            <marker date="1489420048910" expanded="true" signature="3533:3544" ph="DELETE FROM " />
+            <marker date="1489654084348" expanded="true" signature="808:826" ph="SELECT * FRO... book" />
+            <marker date="1489654084348" expanded="true" signature="1422:1453" ph="SELECT * FRO... book" />
+            <marker date="1489654084348" expanded="true" signature="2253:2316" ph="INSERT INTO book... " />
+            <marker date="1489654084348" expanded="true" signature="2716:2742" ph="DELETE FROM " />
+            <marker date="1489654084348" expanded="true" signature="2716:2748" ph="DELETE FROM " />
+            <marker date="1489654084348" expanded="true" signature="3447:3480" ph="UPDATE book " />
+            <marker date="1489654084348" expanded="true" signature="3447:3493" ph="UPDATE book " />
+            <marker date="1489654084348" expanded="true" signature="3447:3496" ph="UPDATE book " />
+            <marker date="1489654084348" expanded="true" signature="3447:3520" ph="UPDATE book " />
+            <marker date="1489654084348" expanded="true" signature="3509:3520" ph="DELETE FROM " />
+            <marker date="1489654084348" expanded="true" signature="3936:4001" ph="SELECT * FRO... book" />
           </folding>
         </state>
       </provider>
